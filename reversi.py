@@ -1,4 +1,3 @@
-
 # Please note that the spec asked for turns to be skipped when
 # there are no more valid moves for any one given player
 # but this is actually a rule of Othello not Reversi.
