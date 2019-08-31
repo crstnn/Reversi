@@ -41,7 +41,7 @@ def get_opposite_field_state(field_state):
 def new_board():
     # The board is list of rows each of which is also a list
     # Note - it is critical to create a new instance for each row
-    fresh_board = [[1] * BOARD_SIZE for i in range(BOARD_SIZE)]
+    fresh_board = [[0] * BOARD_SIZE for i in range(BOARD_SIZE)]
 
     fresh_board[3][3] = FIELD_STATE_WHITE
     fresh_board[4][4] = FIELD_STATE_WHITE
