@@ -1,4 +1,4 @@
-SHALLOWEST SPANNING AND SHORTEST ERRAND <br/><br/>
+__SHALLOWEST SPANNING AND SHORTEST ERRAND__ <br/><br/>
 'Graph' class with the following important methods: <br/><br/>
 - Object constructor method (__init__): accepts a text file (given in parameter: gfile) for which it reads line by line. The file should contain only connected, undirected and simple graphs. The file is set up as following: The first line contains a single integer v, which is the number of vertices in the graph. Each following new line in the file consists of three integers separated by spaces. The first two integers are vertex IDs (range: [0, v - 1]), and the third is the non-negative weight of that edge. <br/>
 -Shallowest spanning tree (shallowest_spanning_tree): Finds an MST that minimises the depth of the tree. The weights of the graph have been considered arbirtary because I am only trying to minimise the number of edges from the yet-to-be-chosen root as it searches for the depth, not minimise the total weight of the MST. As a result it returns the root vertex that minimises the depth (following the aformentioned approach) and also the value of the minimum depth <br/>
