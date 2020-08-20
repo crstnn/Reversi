@@ -3,4 +3,4 @@ Reversi is a two player game with black or while pieces (denoted by 'W' & 'B') i
 The solution that I had created works for single player (basic computer opponent) and doble player.
 Please comment in or out one of the choices in the last two lines of the reversi.py file.
 
-[a relative link](reversi.py)
+[link to file](reversi.py)
