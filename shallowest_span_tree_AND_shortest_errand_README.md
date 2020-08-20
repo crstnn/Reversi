@@ -4,4 +4,4 @@
 -Shallowest spanning tree (shallowest_spanning_tree): Finds an MST that minimises the depth of the tree. The weights of the graph have been considered arbirtary because I am only trying to minimise the number of edges from the yet-to-be-chosen root as it searches for the depth, not minimise the total weight of the MST. As a result it returns the root vertex that minimises the depth (following the aformentioned approach) and also the value of the minimum depth <br/>
 - Shortest errand (shortest_errand): given an input 'home' and 'destination' (integer by vertex ID) this method finds the shortest path from home to destination but constrained by having to first go through an ice_loc and then through an ice_cream_loc (both ice_loc and ice_cream_loc are represented by a list of vertex IDs). The algorithm would output the weight and the walk of the shortest path. The algorithm automatically selects the optimal ice_loc and subsequently ice_cream_loc to go through giving the shortest path from home to destination. <br/>
 
-[link to file](shallowest_span_tree_AND_shortest_errand.py)
+[link to code](shallowest_span_tree_AND_shortest_errand.py)
