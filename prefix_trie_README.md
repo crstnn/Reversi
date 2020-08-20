@@ -5,3 +5,5 @@
 - Prefix frequency method (prefix_freq): given an string input to this method it returns the number of times the said prefix occurred in the original string input list<br/>
 - Wildcard prefix frequency method (wildcard_prefix_freq): given a string input to this method (containing a single wildcard represented by '?', i.e. a symbol that can match any single character), 
 which complete words in the text have that string as a prefix (returned in a list)<br/>
+
+[link to code](prefix_trie.py)
