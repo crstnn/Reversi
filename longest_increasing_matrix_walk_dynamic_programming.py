@@ -15,9 +15,7 @@ def longest_walk(M: list) -> tuple:
     dp = [[0] * m for _ in range(n)]
 
     def is_in_range(row_in, column_in):
-        if 0 <= row_in < n and 0 <= column_in < m:
-            return True
-        return False
+        return 0 <= row_in < n and 0 <= column_in < m
 
     def dfs(i, j):
         if not dp[i][j]:
