@@ -79,10 +79,9 @@ class TrieNode:
         return self.next_nodes
 
     def is_root(self):
-        if self.node_letter is None:
-            return True
-        return False
+        return self.node_letter is None
 
+    
 class Trie:
     def __init__(self, text):
         """
