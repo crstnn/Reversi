@@ -86,7 +86,7 @@ class MinHeap:
 
     def is_empty(self):
         """Checks if heap is empty"""
-        return self.size <= 0:
+        return self.size <= 0
 
 
 class Graph:
